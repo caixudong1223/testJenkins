@@ -1,6 +1,9 @@
 <template>
   <div class="hello">
     <router-link to="/parent/child">子组件/child</router-link>
+    <p>
+      hahahaahahah
+    </p>
     <h1>{{ msg }}</h1>
     <p>{{count}}</p>
     <router-view :count="count"></router-view>
